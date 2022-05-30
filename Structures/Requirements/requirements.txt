@@ -1,0 +1,58 @@
+php:
+	>=7.2
+
+functions:
+	ucfirst
+	lcfirst
+	gkib
+	ini_set
+	ini_get
+	set_time_limit
+	session_start
+	session_id
+	date_default_timezone_set
+	date_default_timezone_get
+	file_put_contents
+	file_get_contents
+	unlink
+	env
+	getenv
+	hash_algos
+	phpuname
+	phpos
+	php_sapi_name
+	htmlentities
+	chr
+	ord
+	time
+	microtime
+	timezone_identifiers_list
+
+class:
+	TkStarIR\TkStarJDC
+	TkStarIR\Dumper
+
+extensions:
+	pdo
+	mysqli
+	json
+	reflection
+	hash
+	json
+	mbstring
+	openssl
+	closures
+	regexp
+
+global variables:
+	session
+	cookie
+	file
+	post
+	get
+
+constants:
+	PHP_EOL
+	DIRECTORY_SEPARATOR
+	PATH_SEPARATOR
+	__DIR__

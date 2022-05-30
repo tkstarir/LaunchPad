@@ -1,0 +1,16 @@
+{{Line}}
+Description:{{Line}}
+	{{Tab}}LaunchPad command to launch your project on development server.{{Line}}
+	{{Tab}}This command has default parameters such as hostname and port but{{Line}}
+	{{Tab}}meanwhile you can define your desired parameters.{{Line}}
+	{{Tab}}LaunchPad suggestion: don't use this command for your production{{Line}}
+	{{Tab}}versions because this command is useful for dev releases.
+	{{Line}}{{Line}}
+
+Usage:{{Line}}
+	{{Tab}}launch [...options]{{Line}}{{Line}}
+
+Options:{{Line}}
+	{{Tab}}--hostname   [=Hostname]    Desired hostname [def: "127.0.0.1"]{{Line}}
+	{{Tab}}--http-port  [=Port]        Web Server Port [def: "8000"]{{Line}}
+	{{Tab}}--target     [=Target]      Application reference [def: "App/App.php"]{{Row}}

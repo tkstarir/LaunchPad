@@ -1,0 +1,31 @@
+<?php
+
+namespace {{Namespace}}\{{Component_Namespace}} {
+
+	// -----------------------------------------------------------------------------------------------------------------------
+	// | @component \LaunchPad as Framework
+	// -----------------------------------------------------------------------------------------------------------------------
+	use \LaunchPad as Framework;
+
+	// Check for existence of trait
+	if(!trait_exists(__NAMESPACE__ . '\\{{Trait_Name}}')){
+
+		// Your {{Trait_Name}} Component for "{{Namespace}}\{{Component_Namespace}}"
+		trait {{Trait_Name}} {
+
+			// Your First Component Method
+			// @no_variable
+			// @return true
+			public static function Start() : Bool {
+				return true;
+			}
+
+		}
+
+	}
+
+	return({{Namespace}}\{{Component_Namespace}}\{{Trait_Name}}::class);
+
+}
+
+?>

@@ -1,0 +1,35 @@
+<?php
+
+namespace {{Namespace}} {
+
+	// -----------------------------------------------------------------------------------------------------------------------
+	// | @component \LaunchPad as Framework
+	// -----------------------------------------------------------------------------------------------------------------------
+	use \LaunchPad as App;
+
+	// Check for existence of class
+	if(!class_exists(__NAMESPACE__ . '\\{{Name}}')){
+
+		// Your {{Name}} Library
+		class {{Name}} {
+
+			/*
+				Core Class Body
+			*/
+
+			// Your First Library Method
+			// @no_variable
+			// @return true
+			public static function Start() : Bool {
+				return true;
+			}
+
+		}
+
+	}
+
+	return(\{{Namespace}}\{{Name}}::class);
+
+}
+
+?>

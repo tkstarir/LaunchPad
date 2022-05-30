@@ -1,0 +1,37 @@
+{
+    "name": "tkstarir/launchpad",
+    "description": "Pure LuanchPad framwork",
+    "keywords": ["framework", "launchpad", "tkstarir", "tkstar framework", "php"],
+    "type": "framwork",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "TkStar Company",
+            "email": "info@tkstar.ir"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "ext-json": "*",
+        "ext-openssl": "*",
+        "ext-mbstring": "*",
+        "ext-mysqli": "*",
+        "ext-PDO": "*",
+        "ext-Reflection": "*",
+        "ext-hash": "*",
+        "tkstarir/tkstardump": "^1.0.0",
+        "tkstarir/tkstarjdc": "^1.0.0"
+    },
+    "support": {
+        "issues": "https://github.com/tkstarir/framework/issues",
+        "source": "https://github.com/tkstarir/framework"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "files": ["App.php"]
+    }
+}
